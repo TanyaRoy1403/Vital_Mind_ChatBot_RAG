@@ -1,0 +1,56 @@
+2025-08-16 22:08:49,993 - INFO - MAking the vectorstore....
+2025-08-16 22:08:49,993 - INFO - Loading files from data/
+2025-08-16 22:09:12,191 - INFO - Sucesfully fetched 759 documents
+2025-08-16 22:09:12,193 - INFO - Splitting 759 documents into chunks
+2025-08-16 22:09:12,440 - INFO - Generated 7080 text chunks
+2025-08-16 22:09:12,441 - INFO - Generating your new vectorstore
+2025-08-16 22:09:12,441 - INFO - Intializing our Huggingface embedding model
+2025-08-16 22:09:30,728 - INFO - Use pytorch device_name: cpu
+2025-08-16 22:09:30,728 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 22:09:34,973 - INFO - Huggingface embedding model loaded sucesfully....
+2025-08-16 22:12:52,585 - INFO - Loading faiss with AVX512 support.
+2025-08-16 22:12:52,586 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-16 22:12:52,586 - INFO - Loading faiss with AVX2 support.
+2025-08-16 22:12:52,987 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-16 22:12:53,265 - INFO - Saving vectorstoree
+2025-08-16 22:12:53,316 - INFO - Vectostore saved sucesfulyy...
+2025-08-16 22:12:53,319 - INFO - Vectorstore created sucesfully....
+2025-08-16 22:25:10,220 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.2.231:5000
+2025-08-16 22:25:10,220 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 22:25:17,484 - INFO - 10.2.2.231 - - [16/Aug/2025 22:25:17] "GET / HTTP/1.1" 200 -
+2025-08-16 22:25:17,887 - INFO - 10.2.2.231 - - [16/Aug/2025 22:25:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-16 22:25:24,660 - INFO - Loading vector store for context
+2025-08-16 22:25:24,660 - INFO - Intializing our Huggingface embedding model
+2025-08-16 22:25:51,188 - INFO - Use pytorch device_name: cpu
+2025-08-16 22:25:51,188 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 22:25:58,959 - INFO - Huggingface embedding model loaded sucesfully....
+2025-08-16 22:25:58,959 - INFO - Loading existing vectorstore...
+2025-08-16 22:25:58,970 - INFO - Loading faiss with AVX512 support.
+2025-08-16 22:25:58,971 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-16 22:25:58,971 - INFO - Loading faiss with AVX2 support.
+2025-08-16 22:25:59,280 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-16 22:25:59,501 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-08-16 22:26:03,776 - INFO - LLM loaded successfully from Groq.
+2025-08-16 22:26:03,778 - INFO - Successfully created the QA chain
+2025-08-16 22:26:04,799 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-16 22:26:05,026 - INFO - 10.2.2.231 - - [16/Aug/2025 22:26:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-16 22:26:05,035 - INFO - 10.2.2.231 - - [16/Aug/2025 22:26:05] "GET / HTTP/1.1" 200 -
+2025-08-16 22:27:51,616 - INFO - Loading vector store for context
+2025-08-16 22:27:51,616 - INFO - Intializing our Huggingface embedding model
+2025-08-16 22:27:51,623 - INFO - Use pytorch device_name: cpu
+2025-08-16 22:27:51,623 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-16 22:27:56,722 - INFO - Huggingface embedding model loaded sucesfully....
+2025-08-16 22:27:56,722 - INFO - Loading existing vectorstore...
+2025-08-16 22:27:56,838 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-08-16 22:28:00,206 - INFO - LLM loaded successfully from Groq.
+2025-08-16 22:28:00,207 - INFO - Successfully created the QA chain
+2025-08-16 22:28:00,900 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-16 22:28:00,914 - INFO - 10.2.2.231 - - [16/Aug/2025 22:28:00] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-16 22:28:00,924 - INFO - 10.2.2.231 - - [16/Aug/2025 22:28:00] "GET / HTTP/1.1" 200 -
+2025-08-16 22:28:09,407 - INFO - 10.2.2.231 - - [16/Aug/2025 22:28:09] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-08-16 22:28:09,416 - INFO - 10.2.2.231 - - [16/Aug/2025 22:28:09] "GET / HTTP/1.1" 200 -
