@@ -1,4 +1,7 @@
 <h1 align="center">🧠 VitalMind - AI Powered RAG Chatbot</h1>
+<p align="center">
+  <img src="data/workflow.png" alt="Aivana Workflow" width="700"/>
+</p>
 
 An end-to-end **Retrieval-Augmented Generation (RAG)** based chatbot that processes PDF documents, converts them into embeddings, and enables intelligent question answering using LLMs (Mistral AI).
 
