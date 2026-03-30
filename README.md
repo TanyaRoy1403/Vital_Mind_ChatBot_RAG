@@ -7,7 +7,7 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** based chatbot that proces
 ## 🚀 Project Overview
 
 VitalMind is a production-ready AI system that:
-
+⚠️ Currently, the system is configured using a medical-domain PDF dataset to demonstrate domain-specific question answering.
 * 📄 Ingests PDF documents
 * ✂️ Splits text into chunks using LangChain
 * 🧠 Converts text into embeddings
@@ -124,7 +124,7 @@ Vital_Mind_ChatBot_RAG/
 ### 1. Clone Repo
 
 ```
-git clone https://github.com/your-username/Vital_Mind_ChatBot_RAG.git
+git clone https://github.com/TanyaRoy1403/Vital_Mind_ChatBot_RAG.git
 cd Vital_Mind_ChatBot_RAG
 ```
 
@@ -233,6 +233,4 @@ Give it a ⭐ on GitHub and feel free to contribute!
 
 ---
 
-## 📜 License
 
-MIT License
