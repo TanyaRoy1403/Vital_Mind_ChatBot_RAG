@@ -231,7 +231,7 @@ Mental health refers to a person’s emotional, psychological, and social well-b
 
 ---
 
-## ⭐ If you like this project
+## If you like this project
 
 Give it a ⭐ on GitHub and feel free to contribute!
 
