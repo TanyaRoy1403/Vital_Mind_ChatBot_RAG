@@ -1,4 +1,4 @@
-<h1 align="center">🧠 VitalMind - AI Powered RAG Chatbot</h1>
+<h1 align="center">VitalMind - AI Powered RAG Chatbot</h1>
 <p align="center">
   <img src="data/workflow.png" alt="Aivana Workflow" width="700"/>
 </p>
