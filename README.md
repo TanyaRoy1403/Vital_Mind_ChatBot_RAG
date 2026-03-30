@@ -7,6 +7,7 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** based chatbot that proces
 ## 🚀 Project Overview
 
 VitalMind is a production-ready AI system that:
+
 ⚠️ Currently, the system is configured using a medical-domain PDF dataset to demonstrate domain-specific question answering.
 * 📄 Ingests PDF documents
 * ✂️ Splits text into chunks using LangChain
