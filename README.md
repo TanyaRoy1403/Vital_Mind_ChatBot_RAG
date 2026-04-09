@@ -7,22 +7,22 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** based chatbot that proces
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 VitalMind is a production-ready AI system that:
 
 ⚠️ Currently, the system is configured using a medical-domain PDF dataset to demonstrate domain-specific question answering.
-* 📄 Ingests PDF documents
-* ✂️ Splits text into chunks using LangChain
-* 🧠 Converts text into embeddings
-* 📦 Stores embeddings in FAISS vector database
-* 🔍 Retrieves relevant context using semantic search
-* 🤖 Generates answers using Mistral LLM
-* 🌐 Serves responses via Flask web application
+*  Ingests PDF documents
+*  Splits text into chunks using LangChain
+*  Converts text into embeddings
+*  Stores embeddings in FAISS vector database
+*  Retrieves relevant context using semantic search
+*  Generates answers using Mistral LLM
+*  Serves responses via Flask web application
 
 ---
 
-## 🧠 How It Works (RAG Pipeline)
+##  How It Works (RAG Pipeline)
 
 1. PDF is loaded from `data/`
 2. Text is split into smaller chunks
@@ -35,7 +35,7 @@ VitalMind is a production-ready AI system that:
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ### ⚙️ Setup & Configuration
 
@@ -44,25 +44,25 @@ VitalMind is a production-ready AI system that:
 * Custom exception handling
 * Environment variables
 
-### 📂 Data Processing
+###  Data Processing
 
 * PDF loading
 * Text chunking (LangChain)
 * Embedding generation
 * FAISS storage
 
-### 🤖 LLM & Retrieval
+###  LLM & Retrieval
 
 * Mistral AI integration
 * Retriever pipeline
 * Semantic search
 
-### 🌐 Application Layer
+###  Application Layer
 
 * Flask backend
 * HTML/CSS frontend
 
-### 🚢 Deployment & DevOps
+###  Deployment & DevOps
 
 * Docker containerization
 * Jenkins CI/CD pipeline
@@ -71,7 +71,7 @@ VitalMind is a production-ready AI system that:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category        | Tools                 |
 | --------------- | --------------------- |
@@ -87,7 +87,7 @@ VitalMind is a production-ready AI system that:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Vital_Mind_ChatBot_RAG/
@@ -123,7 +123,7 @@ Vital_Mind_ChatBot_RAG/
 
 ---
 
-## ⚡ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone Repo
 
@@ -161,7 +161,7 @@ python app/application.py
 
 ---
 
-## 🐳 Docker Setup
+##  Docker Setup
 
 ### Build
 
@@ -177,7 +177,7 @@ docker run -p 5000:5000 vitalmind
 
 ---
 
-## 🔁 CI/CD Pipeline
+##  CI/CD Pipeline
 
 1. Code pushed to GitHub
 2. Jenkins triggers pipeline
@@ -188,7 +188,7 @@ docker run -p 5000:5000 vitalmind
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
 **Input Query:**
 
@@ -204,14 +204,14 @@ Mental health refers to a person’s emotional, psychological, and social well-b
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-* 📄 PDF-based knowledge system
-* 🔍 Semantic search (FAISS)
-* 🤖 LLM-powered answers
-* ⚡ Fast retrieval pipeline
-* 🌐 Web interface (Flask)
-* 🚀 Production-ready deployment
+*  PDF-based knowledge system
+*  Semantic search (FAISS)
+*  LLM-powered answers
+*  Fast retrieval pipeline
+*  Web interface (Flask)
+*  Production-ready deployment
 
 ---
 
